@@ -1,0 +1,7 @@
+platform :ios, '10.0'
+inhibit_all_warnings!
+
+target 'HLBGuideExample' do
+	pod 'HLBGuide', :path => '../'
+  pod 'Masonry', '~> 1.1.0'
+end
