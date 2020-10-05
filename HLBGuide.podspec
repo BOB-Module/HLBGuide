@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
    s.author       = { "Huang Libo" => "LiboHwang+IM@gmail.com" }
    s.source       = { :git => "https://github.com/BOB-Module/HLBGuide.git", :tag => s.version }
    
-   s.ios.deployment_target = '10.0'
+   s.ios.deployment_target = '9.0'
    s.source_files = 'HLBGuide/'
  end
