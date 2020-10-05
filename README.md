@@ -2,11 +2,11 @@
 
 ## 动态示例
 
-![HLBGuide-Example](media/HLBGuide-Example.gif)
+<img src="./media/HLBGuide-Example.gif" width="50%" height="50%">
 
 ## 静态示例
 
-![](media/HLBGuide-Example.jpg)
+<img src="./media/HLBGuide-Example.jpg" width="50%" height="50%">
 
 ## 集成 HLBGuide
 
@@ -22,7 +22,7 @@ pod 'HLBGuide'
 
 需要注意的是， `HLBDialogView` 子类的控件需添加到的 `contentView` 中。
 
-![-w322](media/subclass-example.jpg)
+<img src="./media/subclass-example.jpg" width="50%" height="50%">
 
 然后就可以按下述步骤添加和展示引导页了：
 
@@ -50,7 +50,7 @@ pod 'HLBGuide'
 
 #### 总览
 
-![](media/reveal-all.jpg)
+<img src="./media/reveal-all.jpg" width="50%" height="50%">
 
 在新建的 `window` 上，有两个子 view，一个是带透明镂空的 `HLBFocusedView`；另一个是带三角形指示器的 `MyDialogView`，它继承自 `HLBDialogView`。  
 
@@ -62,7 +62,7 @@ pod 'HLBGuide'
 
 它可直接使用，无需自定义。  
 
-![-w425](media/reveal-focusedView.jpg)
+<img src="./media/reveal-focusedView.jpg" width="50%" height="50%">
 
 #### MyDialogView
 
@@ -70,4 +70,4 @@ pod 'HLBGuide'
 
 `MyDialogView` 继承自 `HLBDialogView`，子类可在 `contentView` 上添加自定义控件（如本示例中的 Label 和 Button）。
 
-![](media/reveal-dialogView.jpg)
+<img src="./media/reveal-dialogView.jpg" width="50%" height="50%">
