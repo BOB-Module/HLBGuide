@@ -29,7 +29,7 @@
     /* 添加需要被聚焦展示的示例控件 */
     
     _bannerLabel = [[UILabel alloc] init];
-    _bannerLabel.text = @"点击屏幕, 开始新用户引导";
+    _bannerLabel.text = @"点击屏幕, 开始新功能引导";
     _bannerLabel.textAlignment = NSTextAlignmentCenter;
     _bannerLabel.font = [UIFont systemFontOfSize:18.f];
     [self.view addSubview:_bannerLabel];
