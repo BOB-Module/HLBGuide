@@ -10,51 +10,51 @@
 		115ACCE253A886181B55773DDC70D6ED /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = A9244EA17B6E04FACE497603F0088190 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		15329C39BD0BE248553E5F2AEA8C0011 /* Pods-HLBGuideExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8873CF0B201789A303B1C7025AF68D43 /* Pods-HLBGuideExample-dummy.m */; };
 		181B2691FF506F26F7F71F711C724B81 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 935171CB319C057FAEE8F843F46825FE /* MASConstraintMaker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1959321B40393D0956F8EF5A9A0C92EE /* HLBGuide.h in Headers */ = {isa = PBXBuildFile; fileRef = 734DA69D0F4BFCD97F64EC452C3036BA /* HLBGuide.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1959321B40393D0956F8EF5A9A0C92EE /* HLBGuide.h in Headers */ = {isa = PBXBuildFile; fileRef = A95EF296C9A91AE7EE6421A780634468 /* HLBGuide.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		20E2F8001CC8A41A0E1B50694BE7875D /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBB3725D2C0052C8143BF229622340A /* NSArray+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		2E5F3B41BD51ACE4EE3B422BB67E51DF /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE1660D370806B3EFD74C49D3471C1C /* MASViewAttribute.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		31064475EC704EC31BC3E2DE0DAFC72C /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8160CD72114EFF3597CD4BF6F7F1F7 /* MASViewConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		3430321D06CBCF49F5A7DF6A70D9BB91 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AEBAAA2225352CFA3BA703D5C21510 /* Masonry-dummy.m */; };
-		38DAA210142436FECFF2F75686E0330C /* HLBFocusedWithDialogManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A8404C5E4742AB410528D4B038D2EBC1 /* HLBFocusedWithDialogManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		38DAA210142436FECFF2F75686E0330C /* HLBFocusedWithDialogManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2920537B2A388F097AD6C41A2B798527 /* HLBFocusedWithDialogManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		390E8375B19FF12764C5AA730AF0F0F4 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 587E0B8E883D6AD4B29DA2365B8C2EFA /* View+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		42947699890A199B08A896144A878D80 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 49AC5D4983C8BEF841BBE185811C5FB0 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		44A3B1A5D2C513F8FD238E3B64E4C6CF /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB032F0BEDBBDDF91030E59ACA7DC98 /* NSLayoutConstraint+MASDebugAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		46692A2E77157B00827182C8DC686F72 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C2B405D244ABC4F0728546D75B2D86 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		48D89D7A0B6F352BBDDB3F2F87E6D6FF /* HLBFocusedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8056221C0182270E8505E58469BC00 /* HLBFocusedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		48D89D7A0B6F352BBDDB3F2F87E6D6FF /* HLBFocusedView.h in Headers */ = {isa = PBXBuildFile; fileRef = B942DE10A6B5F6F811664521963FCD04 /* HLBFocusedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4CE091F886EC6324673EFE0AEBBEA0FE /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D5BA9F847C587E22F8DD9250EDEC7CDA /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		58C110ED5C50F80A699FAA80B28D2A3E /* HLBFocusedWithDialogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC76A13B556042D9A2926F1C092D414 /* HLBFocusedWithDialogManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		58C110ED5C50F80A699FAA80B28D2A3E /* HLBFocusedWithDialogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D89728A0381BC5DA2C2B31B0F1E46A /* HLBFocusedWithDialogManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		5C5C77BBF83B793B82713296519751DA /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 553DA097256D24886D70E33FBA786911 /* ViewController+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		65E88072A2BDC576BFC85E67EF9FBBC6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EFED6E52B374EE53B8B532C8A65A293 /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		68734B2FD4E55F9A95D5B416C075074A /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = AA01142B191C535B620A7D90F8B79380 /* MASLayoutConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		7CF2AC7A3B3ED03B30C1E4ED662B0551 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C8E52D0D54D9FDA8B5EE9BC43560E445 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		81F811A56B6724F7E8E2D25364E595E3 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C5C44599FE7C1C51F94F910C9C3E7827 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		84E758821BF2B354595937F543A6C9A0 /* HLBFocusedView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD36704D1323F0790A8B5E010AFE59E9 /* HLBFocusedView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		84E758821BF2B354595937F543A6C9A0 /* HLBFocusedView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB6A940B118DA3001C7ED21EAFEC621 /* HLBFocusedView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9194B58ACE900ED6BAE6AD92E24A2CFF /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A1A97E52C283A47BA4E8F48BC313FB /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		92BF70E9D3285561EB404A7C4A4A6DEE /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 558B2763E324B8D237D904287AE7A690 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9B369AAD43832AEDBBDA8A0DF0856B4C /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0AEA8F34CAE43AA76247FF577BAA68 /* MASCompositeConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A3307B8FB6EE0A049DBAE3AA4D2C6DA0 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 370F325DDBF27B3EF280D0011A024B35 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A73B8FD02D2F2D6D11D55D8796C2F294 /* HLBFocusedWithDialogViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F998410E2A7756CDF3F5BF3BB031E536 /* HLBFocusedWithDialogViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A73B8FD02D2F2D6D11D55D8796C2F294 /* HLBFocusedWithDialogViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1321F285F605270C858947717D4C2249 /* HLBFocusedWithDialogViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B20A0E5D8F9BCED1A82793C4BE9E7258 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 45892546416F43C43E8AA0E2AA27BC95 /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B9B22D7D70F8869CBAACAB02EDB55928 /* HLBFocusedWithDialogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 808A8A4360FB9F6DDEF92348A63CA629 /* HLBFocusedWithDialogViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B9B22D7D70F8869CBAACAB02EDB55928 /* HLBFocusedWithDialogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223F1009BC5144BD6D56EC027BCB0187 /* HLBFocusedWithDialogViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C74D2E856ADC8139CD00DBD184061B23 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AA56AA7AF365E444271F9F4BE178D5A0 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C9525DAD5E4041DA1307C97D493EB3E6 /* HLBDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C0FD6EE684337789721E1BBCB7DB2 /* HLBDialogView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		D6AF168E7AD3862B85F46181BB5F6CD4 /* HLBDialogView.h in Headers */ = {isa = PBXBuildFile; fileRef = BE4961ADAA638BBF96564BA37835AAD9 /* HLBDialogView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C9525DAD5E4041DA1307C97D493EB3E6 /* HLBDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD36B5A5136944B67D243761AB901A7 /* HLBDialogView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D6AF168E7AD3862B85F46181BB5F6CD4 /* HLBDialogView.h in Headers */ = {isa = PBXBuildFile; fileRef = 92BBDCF45EDEE40735C1A367812BD6D4 /* HLBDialogView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D783A8A5A426DBF85162B92142651218 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A301E9D7640CAAE872D2257184D64010 /* MASConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		D81E6A18627B429384D0FA0B7337C669 /* HLBGuide-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C954C1A226491A29CAC60F2FAD8C7C8 /* HLBGuide-dummy.m */; };
+		D81E6A18627B429384D0FA0B7337C669 /* HLBGuide-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6132EEA933EAD35A119680BE00E32660 /* HLBGuide-dummy.m */; };
 		E76935CFF4AF327F8D9A7C1935F7D900 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA0898FAC44183744D557073E2F8AA5 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EB663E3E1EB4BB670DC29B77DB330135 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 411CCCE6A707DDA02AF236A6F4DD8B74 /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F1B75048874B8773E5568E6D3ACA12E4 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8967E66A2FCB5BA81BFA1E139139A237 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		162F35DB54AFB0B42A785B39292B70EF /* PBXContainerItemProxy */ = {
+		8DFF954FD064AB614A5C12483FFD56E3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
 			remoteInfo = Masonry;
 		};
-		BEF78176240E577D75681FDA561867C1 /* PBXContainerItemProxy */ = {
+		91D594BF8C89D192775FD420B9A2F543 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -64,58 +64,60 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0065D3480DD4FF4E13A6000C96633261 /* HLBGuide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HLBGuide.release.xcconfig; sourceTree = "<group>"; };
 		055C8319132B512CF21ACEF2F4B00BCA /* Pods-HLBGuideExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HLBGuideExample-acknowledgements.plist"; sourceTree = "<group>"; };
 		0D0AEA8F34CAE43AA76247FF577BAA68 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		1321F285F605270C858947717D4C2249 /* HLBFocusedWithDialogViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLBFocusedWithDialogViewController.h; path = HLBGuide/HLBFocusedWithDialogViewController.h; sourceTree = "<group>"; };
 		16AEBAAA2225352CFA3BA703D5C21510 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
-		188512D521A648BA16F6A0E70ECB3FD3 /* HLBGuide.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HLBGuide.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1A8056221C0182270E8505E58469BC00 /* HLBFocusedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLBFocusedView.h; path = HLBGuide/HLBFocusedView.h; sourceTree = "<group>"; };
+		18D89728A0381BC5DA2C2B31B0F1E46A /* HLBFocusedWithDialogManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLBFocusedWithDialogManager.m; path = HLBGuide/HLBFocusedWithDialogManager.m; sourceTree = "<group>"; };
 		1FFED36A657123030ABB700256D73F15 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		223F1009BC5144BD6D56EC027BCB0187 /* HLBFocusedWithDialogViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLBFocusedWithDialogViewController.m; path = HLBGuide/HLBFocusedWithDialogViewController.m; sourceTree = "<group>"; };
+		2920537B2A388F097AD6C41A2B798527 /* HLBFocusedWithDialogManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLBFocusedWithDialogManager.h; path = HLBGuide/HLBFocusedWithDialogManager.h; sourceTree = "<group>"; };
 		2F8160CD72114EFF3597CD4BF6F7F1F7 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		334E213DC432215F6F9D110157F02FD7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		33B253CB2B7AC0A197CBCDACBCDB4016 /* Pods-HLBGuideExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLBGuideExample.release.xcconfig"; sourceTree = "<group>"; };
 		370F325DDBF27B3EF280D0011A024B35 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		3F366AE86644F5DBD52C4FD376388052 /* libHLBGuide.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHLBGuide.a; path = libHLBGuide.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F465BC69549F30E813440E685F54358 /* HLBGuide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HLBGuide.debug.xcconfig; sourceTree = "<group>"; };
 		411CCCE6A707DDA02AF236A6F4DD8B74 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		44AEC6462659DC0098D6E58E0470E73F /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
 		45892546416F43C43E8AA0E2AA27BC95 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		49AC5D4983C8BEF841BBE185811C5FB0 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		4CD36B5A5136944B67D243761AB901A7 /* HLBDialogView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLBDialogView.m; path = HLBGuide/HLBDialogView.m; sourceTree = "<group>"; };
 		553DA097256D24886D70E33FBA786911 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		554710860753D23B5D7B6BE0AC497691 /* HLBGuide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HLBGuide.release.xcconfig; sourceTree = "<group>"; };
 		558B2763E324B8D237D904287AE7A690 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		587E0B8E883D6AD4B29DA2365B8C2EFA /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		5DB032F0BEDBBDDF91030E59ACA7DC98 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		5EFED6E52B374EE53B8B532C8A65A293 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		6132EEA933EAD35A119680BE00E32660 /* HLBGuide-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HLBGuide-dummy.m"; sourceTree = "<group>"; };
 		64C2B405D244ABC4F0728546D75B2D86 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		680BB0774AD4DEC804848C13E641374B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		6FBB3725D2C0052C8143BF229622340A /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		72A1A97E52C283A47BA4E8F48BC313FB /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		72D98643BA30A79011275CBE433EF86F /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
-		734DA69D0F4BFCD97F64EC452C3036BA /* HLBGuide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLBGuide.h; path = HLBGuide/HLBGuide.h; sourceTree = "<group>"; };
 		77E1C674F750D9E6E849B41EAF06E497 /* libPods-HLBGuideExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HLBGuideExample.a"; path = "libPods-HLBGuideExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78BCA4157A7643D60D9A83976A23FF70 /* Pods-HLBGuideExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLBGuideExample.debug.xcconfig"; sourceTree = "<group>"; };
 		7EE1660D370806B3EFD74C49D3471C1C /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		808A8A4360FB9F6DDEF92348A63CA629 /* HLBFocusedWithDialogViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLBFocusedWithDialogViewController.m; path = HLBGuide/HLBFocusedWithDialogViewController.m; sourceTree = "<group>"; };
-		86FB6979E709546E7DF9A11083471C80 /* HLBGuide-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HLBGuide-prefix.pch"; sourceTree = "<group>"; };
 		8873CF0B201789A303B1C7025AF68D43 /* Pods-HLBGuideExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HLBGuideExample-dummy.m"; sourceTree = "<group>"; };
 		8967E66A2FCB5BA81BFA1E139139A237 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		89ECDB5AD064E3E959C12BFBF34A6D8E /* HLBGuide-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HLBGuide-prefix.pch"; sourceTree = "<group>"; };
 		8BA0898FAC44183744D557073E2F8AA5 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		8C954C1A226491A29CAC60F2FAD8C7C8 /* HLBGuide-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HLBGuide-dummy.m"; sourceTree = "<group>"; };
 		91F10A7E4BAA437E4DF7B3CED9B560B4 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		92BBDCF45EDEE40735C1A367812BD6D4 /* HLBDialogView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLBDialogView.h; path = HLBGuide/HLBDialogView.h; sourceTree = "<group>"; };
 		935171CB319C057FAEE8F843F46825FE /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DC76A13B556042D9A2926F1C092D414 /* HLBFocusedWithDialogManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLBFocusedWithDialogManager.m; path = HLBGuide/HLBFocusedWithDialogManager.m; sourceTree = "<group>"; };
 		A301E9D7640CAAE872D2257184D64010 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		A8404C5E4742AB410528D4B038D2EBC1 /* HLBFocusedWithDialogManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLBFocusedWithDialogManager.h; path = HLBGuide/HLBFocusedWithDialogManager.h; sourceTree = "<group>"; };
 		A9244EA17B6E04FACE497603F0088190 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		A95EF296C9A91AE7EE6421A780634468 /* HLBGuide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLBGuide.h; path = HLBGuide/HLBGuide.h; sourceTree = "<group>"; };
 		AA01142B191C535B620A7D90F8B79380 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		AA56AA7AF365E444271F9F4BE178D5A0 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		BE4961ADAA638BBF96564BA37835AAD9 /* HLBDialogView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLBDialogView.h; path = HLBGuide/HLBDialogView.h; sourceTree = "<group>"; };
-		C59C0FD6EE684337789721E1BBCB7DB2 /* HLBDialogView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLBDialogView.m; path = HLBGuide/HLBDialogView.m; sourceTree = "<group>"; };
+		B942DE10A6B5F6F811664521963FCD04 /* HLBFocusedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLBFocusedView.h; path = HLBGuide/HLBFocusedView.h; sourceTree = "<group>"; };
+		BF074602ECEB8B3D6B426EAB6DAB0E7D /* HLBGuide.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HLBGuide.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C487DEDFD4045C54DCAC01F20A0A4E7F /* HLBGuide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HLBGuide.debug.xcconfig; sourceTree = "<group>"; };
 		C5C44599FE7C1C51F94F910C9C3E7827 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		C8E52D0D54D9FDA8B5EE9BC43560E445 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		CD36704D1323F0790A8B5E010AFE59E9 /* HLBFocusedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLBFocusedView.m; path = HLBGuide/HLBFocusedView.m; sourceTree = "<group>"; };
 		D5BA9F847C587E22F8DD9250EDEC7CDA /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		E4C3351B05AD891C3D6440AC7D6A820D /* Pods-HLBGuideExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HLBGuideExample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F998410E2A7756CDF3F5BF3BB031E536 /* HLBFocusedWithDialogViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HLBFocusedWithDialogViewController.h; path = HLBGuide/HLBFocusedWithDialogViewController.h; sourceTree = "<group>"; };
+		FCB6A940B118DA3001C7ED21EAFEC621 /* HLBFocusedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HLBFocusedView.m; path = HLBGuide/HLBFocusedView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,25 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		26E288082A7C2292EAD1EA3E8EB0FDCD /* HLBGuide */ = {
+			isa = PBXGroup;
+			children = (
+				92BBDCF45EDEE40735C1A367812BD6D4 /* HLBDialogView.h */,
+				4CD36B5A5136944B67D243761AB901A7 /* HLBDialogView.m */,
+				B942DE10A6B5F6F811664521963FCD04 /* HLBFocusedView.h */,
+				FCB6A940B118DA3001C7ED21EAFEC621 /* HLBFocusedView.m */,
+				2920537B2A388F097AD6C41A2B798527 /* HLBFocusedWithDialogManager.h */,
+				18D89728A0381BC5DA2C2B31B0F1E46A /* HLBFocusedWithDialogManager.m */,
+				1321F285F605270C858947717D4C2249 /* HLBFocusedWithDialogViewController.h */,
+				223F1009BC5144BD6D56EC027BCB0187 /* HLBFocusedWithDialogViewController.m */,
+				A95EF296C9A91AE7EE6421A780634468 /* HLBGuide.h */,
+				71BBF1ADF8D78BC4F27E587D9290831A /* Pod */,
+				AE7170CA34D260F71B45836919348106 /* Support Files */,
+			);
+			name = HLBGuide;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		4357C9F6652A94DC2CBCC1A30010EE33 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +184,16 @@
 			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
+		71BBF1ADF8D78BC4F27E587D9290831A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BF074602ECEB8B3D6B426EAB6DAB0E7D /* HLBGuide.podspec */,
+				334E213DC432215F6F9D110157F02FD7 /* LICENSE */,
+				680BB0774AD4DEC804848C13E641374B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,18 +202,22 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		8BF378A193EA6A1A43C18C78E86818A8 /* Pod */ = {
+		AE7170CA34D260F71B45836919348106 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				188512D521A648BA16F6A0E70ECB3FD3 /* HLBGuide.podspec */,
+				6132EEA933EAD35A119680BE00E32660 /* HLBGuide-dummy.m */,
+				89ECDB5AD064E3E959C12BFBF34A6D8E /* HLBGuide-prefix.pch */,
+				C487DEDFD4045C54DCAC01F20A0A4E7F /* HLBGuide.debug.xcconfig */,
+				0065D3480DD4FF4E13A6000C96633261 /* HLBGuide.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "HLBGuideExample/Pods/Target Support Files/HLBGuide";
 			sourceTree = "<group>";
 		};
 		B53A81BB687F3BDF544A850432055AB6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D474F85D586CBC98731E9F0DA7857E19 /* HLBGuide */,
+				26E288082A7C2292EAD1EA3E8EB0FDCD /* HLBGuide */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -212,25 +247,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		D474F85D586CBC98731E9F0DA7857E19 /* HLBGuide */ = {
-			isa = PBXGroup;
-			children = (
-				BE4961ADAA638BBF96564BA37835AAD9 /* HLBDialogView.h */,
-				C59C0FD6EE684337789721E1BBCB7DB2 /* HLBDialogView.m */,
-				1A8056221C0182270E8505E58469BC00 /* HLBFocusedView.h */,
-				CD36704D1323F0790A8B5E010AFE59E9 /* HLBFocusedView.m */,
-				A8404C5E4742AB410528D4B038D2EBC1 /* HLBFocusedWithDialogManager.h */,
-				9DC76A13B556042D9A2926F1C092D414 /* HLBFocusedWithDialogManager.m */,
-				F998410E2A7756CDF3F5BF3BB031E536 /* HLBFocusedWithDialogViewController.h */,
-				808A8A4360FB9F6DDEF92348A63CA629 /* HLBFocusedWithDialogViewController.m */,
-				734DA69D0F4BFCD97F64EC452C3036BA /* HLBGuide.h */,
-				8BF378A193EA6A1A43C18C78E86818A8 /* Pod */,
-				EA246CD96FF8F4271C29B7A5A11A2811 /* Support Files */,
-			);
-			name = HLBGuide;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -246,18 +262,6 @@
 				77E1C674F750D9E6E849B41EAF06E497 /* libPods-HLBGuideExample.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		EA246CD96FF8F4271C29B7A5A11A2811 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8C954C1A226491A29CAC60F2FAD8C7C8 /* HLBGuide-dummy.m */,
-				86FB6979E709546E7DF9A11083471C80 /* HLBGuide-prefix.pch */,
-				3F465BC69549F30E813440E685F54358 /* HLBGuide.debug.xcconfig */,
-				554710860753D23B5D7B6BE0AC497691 /* HLBGuide.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "HLBGuideExample/Pods/Target Support Files/HLBGuide";
 			sourceTree = "<group>";
 		};
 		F47FDAAE8298DEBC98D156CFA4146C99 /* Masonry */ = {
@@ -352,8 +356,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				683B9CF030D2987DA38D3615E0E38732 /* PBXTargetDependency */,
-				9225A7618A83E0BCF24FEB52DC28CB17 /* PBXTargetDependency */,
+				97DE3A2F72E76041563076B0C6E306DC /* PBXTargetDependency */,
+				EE7F65F4842A1099B1171BBBD50B9D75 /* PBXTargetDependency */,
 			);
 			name = "Pods-HLBGuideExample";
 			productName = "Pods-HLBGuideExample";
@@ -465,17 +469,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		683B9CF030D2987DA38D3615E0E38732 /* PBXTargetDependency */ = {
+		97DE3A2F72E76041563076B0C6E306DC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HLBGuide;
 			target = 8BE23772164E267DABBE37937A25192E /* HLBGuide */;
-			targetProxy = BEF78176240E577D75681FDA561867C1 /* PBXContainerItemProxy */;
+			targetProxy = 91D594BF8C89D192775FD420B9A2F543 /* PBXContainerItemProxy */;
 		};
-		9225A7618A83E0BCF24FEB52DC28CB17 /* PBXTargetDependency */ = {
+		EE7F65F4842A1099B1171BBBD50B9D75 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
 			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = 162F35DB54AFB0B42A785B39292B70EF /* PBXContainerItemProxy */;
+			targetProxy = 8DFF954FD064AB614A5C12483FFD56E3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -546,7 +550,7 @@
 		};
 		3209E9F8FED0928214AB7505A4757664 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 554710860753D23B5D7B6BE0AC497691 /* HLBGuide.release.xcconfig */;
+			baseConfigurationReference = 0065D3480DD4FF4E13A6000C96633261 /* HLBGuide.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -594,7 +598,7 @@
 		};
 		429933DE078C5E0D887A9E8426E3A96C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F465BC69549F30E813440E685F54358 /* HLBGuide.debug.xcconfig */;
+			baseConfigurationReference = C487DEDFD4045C54DCAC01F20A0A4E7F /* HLBGuide.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
