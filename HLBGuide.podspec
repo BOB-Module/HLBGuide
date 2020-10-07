@@ -6,7 +6,9 @@ Pod::Spec.new do |s|
    s.license      = 'MIT'
    s.author       = { "Huang Libo" => "LiboHwang+IM@gmail.com" }
    s.source       = { :git => "https://github.com/BOB-Module/HLBGuide.git", :tag => s.version }
+
+   s.source_files = 'HLBGuide/*.{h,m}'
    
+   s.ios.frameworks = 'Foundation', 'UIKit'
    s.ios.deployment_target = '9.0'
-   s.source_files = 'HLBGuide/'
  end
