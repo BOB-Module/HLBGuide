@@ -91,6 +91,11 @@
     focusedWithDialogVC.okBtnClickBlock = ^{
         [[HLBFocusedWithDialogManager sharedInstance] show];
     };
+    
+    // 点击蒙层, 也展示下一个引导
+    focusedWithDialogVC.tapViewBlock = ^{
+        [[HLBFocusedWithDialogManager sharedInstance] show];
+    };
 }
 
 #pragma mark - HLBFocusedWithDialogViewControllerDelegate

@@ -19,6 +19,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, copy) void(^okBtnClickBlock)(void);
 
+/// 点击蒙层的事件回调
+@property (nonatomic, copy) void(^tapViewBlock)(void);
+
 @end
 
 NS_ASSUME_NONNULL_END
