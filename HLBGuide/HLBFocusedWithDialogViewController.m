@@ -50,7 +50,7 @@
     _focusedView = [[HLBFocusedView alloc] initWithOverlayRect:_overlayRect focusedRect:_focusedRect focusedRectCornerRadius:_focusedRectCornerRadius overlayBackgroundColor:_overlayBackgroundColor];
     [self.view addSubview:_focusedView];
     
-    if (![self.delegate respondsToSelector:@selector(dialogViewClass)]) {
+    if (!self.delegate || ![self.delegate respondsToSelector:@selector(dialogViewClass)]) {
         NSAssert(NO, @"必须实现 `-dialogViewClass` 方法");
     } else {
         // 添加自定义的会话框
