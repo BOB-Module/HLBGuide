@@ -73,6 +73,10 @@
     // 三角形 layer
     CAShapeLayer *arrowLayer = [[CAShapeLayer alloc]init];
     arrowLayer.path = arrowPath.CGPath;
+    // 设置三角形`边`的颜色
+    arrowLayer.lineWidth = 1;
+    arrowLayer.strokeColor = _dialogBackgroundColor.CGColor;
+    // 设置三角形的填充色
     arrowLayer.fillColor = _dialogBackgroundColor.CGColor;
     [self.layer addSublayer:arrowLayer];
 }
