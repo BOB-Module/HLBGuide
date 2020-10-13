@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71AA723D25358A9B005873AE /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 71AA723C25358A9B005873AE /* CHANGELOG.md */; };
 		71DCE6B3252B1FCB000569AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DCE6B2252B1FCB000569AC /* AppDelegate.m */; };
 		71DCE6BE252B1FCD000569AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71DCE6BD252B1FCD000569AC /* Assets.xcassets */; };
 		71DCE6C1252B1FCD000569AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71DCE6BF252B1FCD000569AC /* LaunchScreen.storyboard */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		2731BB8F6909D98B9179BB91 /* libPods-HLBGuideExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HLBGuideExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71AA723C25358A9B005873AE /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../CHANGELOG.md; sourceTree = "<group>"; };
 		71DCE6AE252B1FCB000569AC /* HLBGuideExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLBGuideExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71DCE6B1252B1FCB000569AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		71DCE6B2252B1FCB000569AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 		71DCE6A5252B1FCB000569AC = {
 			isa = PBXGroup;
 			children = (
+				71AA723C25358A9B005873AE /* CHANGELOG.md */,
 				71DCE6B0252B1FCB000569AC /* HLBGuideExample */,
 				71DCE6AF252B1FCB000569AC /* Products */,
 				A04BEEA152A81A18FD99F8A0 /* Pods */,
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71DCE6C1252B1FCD000569AC /* LaunchScreen.storyboard in Resources */,
+				71AA723D25358A9B005873AE /* CHANGELOG.md in Resources */,
 				71DCE6BE252B1FCD000569AC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
