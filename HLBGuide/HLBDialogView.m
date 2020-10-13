@@ -13,6 +13,8 @@
     CGPoint _arrowPeakPoint;
     // 三角形的边长
     CGFloat _arrowSideLength;
+    // 提示框三角形的高度
+    CGFloat _arrowHeight;
     // 会话框的大小 (不包括三角形)
     CGSize _dialogSize;
     // 会话框的起始横坐标
@@ -20,14 +22,13 @@
     // 会话框的背景色
     UIColor *_dialogBackgroundColor;
     
-    // 提示框等边三角形的高度(根据边长计算出来)
-    CGFloat _arrowHeight;
     // 三角形顶点在此 view 内的坐标 (以当前 view 为坐标系)
     CGPoint _arrowPeakInnerPoint;
 }
 
 - (instancetype)initWithArrowPeakPoint:(CGPoint)arrowPeakPoint
                        arrowSideLength:(CGFloat)arrowSideLength
+                           arrowHeight:(CGFloat)arrowHeight
                             dialogSize:(CGSize)dialogSize
                           dialogStartX:(CGFloat)dialogStartX
                        dialogBackgroundColor:(UIColor *)dialogBackgroundColor {
@@ -38,7 +39,8 @@
     _dialogBackgroundColor = dialogBackgroundColor;
     
     // 计算三角形的高度
-    _arrowHeight = (sqrt(3.f) / 2.f) * _arrowSideLength;
+//    _arrowHeight = (sqrt(3.f) / 2.f) * _arrowSideLength;
+    _arrowHeight = arrowHeight;
     _arrowPeakInnerPoint = CGPointMake(_arrowPeakPoint.x - _dialogStartX, 0);
     
     return [self initWithFrame:CGRectMake(_dialogStartX, _arrowPeakPoint.y, _dialogSize.width, _dialogSize.height + _arrowHeight)];

@@ -86,11 +86,13 @@
 - (void)addGuideWithFocusedRext:(CGRect)focusedRect arrowPeakPoint:(CGPoint)arrowPeakPoint dialogSize:(CGSize)dialogSize dialogStartX:(CGFloat)dialogStartX descLabelText:(NSString *)descLabelText {
     CGFloat focusedRectCornerRadius = 6.f;
     CGFloat arrowSideLength = 10.f;
+    CGFloat arrowHeight = 8.f;
     CGRect overlayRect = [UIScreen mainScreen].bounds;
     UIColor *dialogBackgroundColor = [UIColor whiteColor];
     UIColor *overlayBackgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.5];
     // 创建引导页
-    MyFocusedWithDialogViewController *focusedWithDialogVC = [[MyFocusedWithDialogViewController alloc] initWithOverlayRect:overlayRect focusedRect:focusedRect focusedRectCornerRadius:focusedRectCornerRadius overlayBackgroundColor:overlayBackgroundColor arrowPeakPoint:arrowPeakPoint arrowSideLength:arrowSideLength dialogSize:dialogSize dialogStartX:dialogStartX dialogBackgroundColor:dialogBackgroundColor];
+    MyFocusedWithDialogViewController *focusedWithDialogVC = [[MyFocusedWithDialogViewController alloc] initWithOverlayRect:overlayRect focusedRect:focusedRect focusedRectCornerRadius:focusedRectCornerRadius overlayBackgroundColor:overlayBackgroundColor arrowPeakPoint:arrowPeakPoint arrowSideLength:arrowSideLength arrowHeight:arrowHeight dialogSize:dialogSize dialogStartX:dialogStartX dialogBackgroundColor:dialogBackgroundColor];
+    
     focusedWithDialogVC.delegate = self;
     focusedWithDialogVC.descLabelText = descLabelText;
     // 将引导页添加到 HLBFocusedWithDialogManager 中

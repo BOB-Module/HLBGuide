@@ -33,7 +33,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param focusedRectCornerRadius 镂空聚焦的区域的圆角值
 /// @param overlayBackgroundColor 蒙层的颜色
 /// @param arrowPeakPoint 三角形顶点的坐标 (以蒙层为参考坐标)
-/// @param arrowSideLength 三角形的边长
+/// @param arrowSideLength 三角形的`底边`边长 (与会话框相邻的边)
+/// @param arrowHeight 三角形的高
 /// @param dialogSize 会话框的 size
 /// @param dialogStartX 会话框的起始横坐标值
 /// @param dialogBackgroundColor 会话框的背景颜色
@@ -43,6 +44,7 @@ NS_ASSUME_NONNULL_BEGIN
              overlayBackgroundColor:(UIColor *)overlayBackgroundColor
                      arrowPeakPoint:(CGPoint)arrowPeakPoint
                     arrowSideLength:(CGFloat)arrowSideLength
+                        arrowHeight:(CGFloat)arrowHeight
                          dialogSize:(CGSize)dialogSize
                        dialogStartX:(CGFloat)dialogStartX
                     dialogBackgroundColor:(UIColor *)dialogBackgroundColor;

@@ -15,6 +15,7 @@
     UIColor *_overlayBackgroundColor;
     CGPoint _arrowPeakPoint;
     CGFloat _arrowSideLength;
+    CGFloat _arrowHeight;
     CGFloat _dialogStartX;
     CGSize _dialogSize;
     UIColor *_dialogBackgroundColor;
@@ -26,6 +27,7 @@
              overlayBackgroundColor:(UIColor *)overlayBackgroundColor
                      arrowPeakPoint:(CGPoint)arrowPeakPoint
                     arrowSideLength:(CGFloat)arrowSideLength
+                        arrowHeight:(CGFloat)arrowHeight
                          dialogSize:(CGSize)dialogSize
                        dialogStartX:(CGFloat)dialogStartX
                     dialogBackgroundColor:(UIColor *)dialogBackgroundColor {
@@ -35,6 +37,7 @@
     _overlayBackgroundColor = overlayBackgroundColor;
     _arrowPeakPoint = arrowPeakPoint;
     _arrowSideLength = arrowSideLength;
+    _arrowHeight = arrowHeight;
     _dialogSize = dialogSize;
     _dialogStartX = dialogStartX;
     _dialogBackgroundColor = dialogBackgroundColor;
@@ -55,7 +58,7 @@
     } else {
         // 添加自定义的会话框
         Class cls = [self.delegate dialogViewClass];
-        _dialogView = [[cls alloc] initWithArrowPeakPoint:_arrowPeakPoint arrowSideLength:_arrowSideLength dialogSize:_dialogSize dialogStartX:_dialogStartX dialogBackgroundColor:_dialogBackgroundColor];
+        _dialogView = [[cls alloc] initWithArrowPeakPoint:_arrowPeakPoint arrowSideLength:_arrowSideLength arrowHeight:_arrowHeight dialogSize:_dialogSize dialogStartX:_dialogStartX dialogBackgroundColor:_dialogBackgroundColor];
         [self.view addSubview:_dialogView];        
     }
 }

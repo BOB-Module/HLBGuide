@@ -18,6 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (instancetype)initWithArrowPeakPoint:(CGPoint)arrowPeakPoint
                        arrowSideLength:(CGFloat)arrowSideLength
+                           arrowHeight:(CGFloat)arrowHeight
                             dialogSize:(CGSize)dialogSize
                           dialogStartX:(CGFloat)dialogStartX
                        dialogBackgroundColor:(UIColor *)dialogBackgroundColor;
