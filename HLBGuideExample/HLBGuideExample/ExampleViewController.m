@@ -50,9 +50,13 @@
         make.right.equalTo(self.view).offset(-48.f);
         make.size.mas_equalTo(CGSizeMake(32.f, 32.f));
     }];
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self addGuide];
+    });
 }
 
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+- (void)addGuide {
     /* 注: 本例展示简单的不含导航栏的情况, 如果含有导航栏, 计算 focusedRect 时需要考虑导航栏的高度. */
     
     { // 创建和添加第一个引导页
@@ -73,6 +77,10 @@
     }
     // 开始展示引导页
     [[HLBFocusedWithDialogManager sharedInstance] show];
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [self addGuide];
 }
 
 - (void)addGuideWithFocusedRext:(CGRect)focusedRect arrowPeakPoint:(CGPoint)arrowPeakPoint dialogSize:(CGSize)dialogSize dialogStartX:(CGFloat)dialogStartX descLabelText:(NSString *)descLabelText {
