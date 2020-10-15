@@ -59,6 +59,7 @@
     if (!_window) {
         _window = [[UIWindow alloc] initWithFrame:focusedWithDialogVC.view.frame];
     }
+    _window.windowLevel = self.windowLevel;
     _window.rootViewController = focusedWithDialogVC;
     [_window makeKeyAndVisible];
 }

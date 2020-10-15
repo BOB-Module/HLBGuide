@@ -96,6 +96,8 @@
     
     focusedWithDialogVC.delegate = self;
     focusedWithDialogVC.descLabelText = descLabelText;
+    
+    [HLBFocusedWithDialogManager sharedInstance].windowLevel = UIWindowLevelStatusBar;
     // 将引导页添加到 HLBFocusedWithDialogManager 中
     [[HLBFocusedWithDialogManager sharedInstance] addFocusedWithDialogVC:focusedWithDialogVC];
     // 点击自定义页面中的按钮时, 展示下一个引导页

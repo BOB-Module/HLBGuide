@@ -16,6 +16,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (instancetype)sharedInstance;
 
+/// 指定蒙层 window 的级别
+@property(nonatomic) UIWindowLevel windowLevel;
+
 /// 向 manager 中添加一个引导页 controller
 /// @param focusedWithDialogVC 引导页 controller
 - (void)addFocusedWithDialogVC:(HLBFocusedWithDialogViewController *)focusedWithDialogVC;
