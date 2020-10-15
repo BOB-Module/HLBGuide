@@ -96,8 +96,8 @@
 
 - (void)addGuideWithFocusedRext:(CGRect)focusedRect arrowPeakPoint:(CGPoint)arrowPeakPoint dialogSize:(CGSize)dialogSize dialogStartX:(CGFloat)dialogStartX descLabelText:(NSString *)descLabelText {
     CGFloat focusedRectCornerRadius = 6.f;
-    CGFloat arrowSideLength = 9.f;
-    CGFloat arrowHeight = 7.f;
+    CGFloat arrowSideLength = 10.f;
+    CGFloat arrowHeight = 8.f;
     CGRect overlayRect = [UIScreen mainScreen].bounds;
     UIColor *dialogBackgroundColor = [UIColor whiteColor];
     UIColor *overlayBackgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.5];

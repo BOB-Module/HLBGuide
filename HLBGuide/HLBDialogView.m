@@ -8,6 +8,9 @@
 
 #import "HLBDialogView.h"
 
+/// 三角形线条的宽(默认是 1)
+const static CGFloat kArrowLineWidth = 1.f;
+
 @implementation HLBDialogView {
     // 三角形顶点的坐标 (以外部 view 为坐标系)
     CGPoint _arrowPeakPoint;
@@ -33,14 +36,13 @@
                           dialogStartX:(CGFloat)dialogStartX
                        dialogBackgroundColor:(UIColor *)dialogBackgroundColor {
     _arrowPeakPoint = arrowPeakPoint;
-    _arrowSideLength = arrowSideLength;
+    // 由于 CAShapeLayer 的线条位于外层, 底边和高需要需要减去三角形线条的宽度
+    _arrowSideLength = arrowSideLength - kArrowLineWidth;
+    _arrowHeight = arrowHeight - kArrowLineWidth;
     _dialogSize = dialogSize;
     _dialogStartX = dialogStartX;
     _dialogBackgroundColor = dialogBackgroundColor;
     
-    // 计算三角形的高度
-//    _arrowHeight = (sqrt(3.f) / 2.f) * _arrowSideLength;
-    _arrowHeight = arrowHeight;
     _arrowPeakInnerPoint = CGPointMake(_arrowPeakPoint.x - _dialogStartX, 0);
     
     return [self initWithFrame:CGRectMake(_dialogStartX, _arrowPeakPoint.y, _dialogSize.width, _dialogSize.height + _arrowHeight)];
@@ -75,8 +77,8 @@
     // 三角形 layer
     CAShapeLayer *arrowLayer = [[CAShapeLayer alloc]init];
     arrowLayer.path = arrowPath.CGPath;
-    // 设置三角形`边`的颜色
-    arrowLayer.lineWidth = 1;
+    // 设置三角形`边`的颜色 (默认有灰色线条, 需要设置成和填充色一致)
+    arrowLayer.lineWidth = kArrowLineWidth;
     arrowLayer.strokeColor = _dialogBackgroundColor.CGColor;
     // 设置三角形的填充色
     arrowLayer.fillColor = _dialogBackgroundColor.CGColor;
