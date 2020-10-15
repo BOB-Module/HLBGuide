@@ -57,11 +57,12 @@
 }
 
 - (void)addGuide {
+    CGFloat topOffset = 2.f;
     /* 注: 本例展示简单的不含导航栏的情况, 如果含有导航栏, 计算 focusedRect 时需要考虑导航栏的高度. */
     
     { // 创建和添加第一个引导页
         CGRect focusedRect = _bannerLabel.frame;
-        CGPoint arrowPeakPoint = CGPointMake(CGRectGetMidX(_bannerLabel.frame), CGRectGetMaxY(_bannerLabel.frame));
+        CGPoint arrowPeakPoint = CGPointMake(CGRectGetMidX(_bannerLabel.frame), CGRectGetMaxY(_bannerLabel.frame) - topOffset);
         CGSize dialogSize = CGSizeMake(150.f, 70.f);
         CGFloat dialogStartX = CGRectGetMidX(_bannerLabel.frame) - dialogSize.width / 2.f;
         NSString *descLabelText= @"第一个用户引导";
@@ -69,7 +70,7 @@
     }
     { // 创建和添加第二个引导页
         CGRect focusedRect = _addBtn.frame;
-        CGPoint arrowPeakPoint = CGPointMake(CGRectGetMidX(_addBtn.frame), CGRectGetMaxY(_addBtn.frame));
+        CGPoint arrowPeakPoint = CGPointMake(CGRectGetMidX(_addBtn.frame), CGRectGetMaxY(_addBtn.frame) - topOffset);
         CGSize dialogSize = CGSizeMake(200.f, 90);
         CGFloat dialogStartX = arrowPeakPoint.x - dialogSize.width * 0.8;
         NSString *descLabelText= @"文字数量较长的第二个用户引导。";
@@ -85,8 +86,8 @@
 
 - (void)addGuideWithFocusedRext:(CGRect)focusedRect arrowPeakPoint:(CGPoint)arrowPeakPoint dialogSize:(CGSize)dialogSize dialogStartX:(CGFloat)dialogStartX descLabelText:(NSString *)descLabelText {
     CGFloat focusedRectCornerRadius = 6.f;
-    CGFloat arrowSideLength = 10.f;
-    CGFloat arrowHeight = 8.f;
+    CGFloat arrowSideLength = 9.f;
+    CGFloat arrowHeight = 7.f;
     CGRect overlayRect = [UIScreen mainScreen].bounds;
     UIColor *dialogBackgroundColor = [UIColor whiteColor];
     UIColor *overlayBackgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.5];
