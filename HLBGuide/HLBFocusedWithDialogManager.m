@@ -66,6 +66,9 @@
 
 - (void)dismiss {
     _window.hidden = YES;
+    if (self.showGuideCompleteBlock) {
+        self.showGuideCompleteBlock();
+    }
     _window.rootViewController = nil;
     _window = nil;
 }

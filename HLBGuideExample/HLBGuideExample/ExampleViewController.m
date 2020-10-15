@@ -76,6 +76,16 @@
         NSString *descLabelText= @"文字数量较长的第二个用户引导。";
         [self addGuideWithFocusedRext:focusedRect arrowPeakPoint:arrowPeakPoint dialogSize:dialogSize dialogStartX:dialogStartX descLabelText:descLabelText];
     }
+    
+    // 添加引导结束的回调
+    [HLBFocusedWithDialogManager sharedInstance].showGuideCompleteBlock = ^{
+        UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"新用户引导已结束" message:@"这是引导结束后的 callback" preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"知道了" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        }];
+        [alertController addAction:okAction];
+        [self presentViewController:alertController animated:YES completion:nil];
+    };
+    
     // 开始展示引导页
     [[HLBFocusedWithDialogManager sharedInstance] show];
 }

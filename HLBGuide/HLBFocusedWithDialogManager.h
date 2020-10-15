@@ -11,6 +11,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef void(^HLBShowGuideCompleteBlock)(void);
+
 /// 管理多个引导页的 manager
 @interface HLBFocusedWithDialogManager : NSObject
 
@@ -18,6 +20,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 指定蒙层 window 的级别
 @property(nonatomic) UIWindowLevel windowLevel;
+
+/// 引导结束后的回调
+@property(nonatomic, copy) HLBShowGuideCompleteBlock showGuideCompleteBlock;
 
 /// 向 manager 中添加一个引导页 controller
 /// @param focusedWithDialogVC 引导页 controller
