@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
    s.name         = "HLBGuide"
-   s.version      = "0.0.4"
+   s.version      = "0.0.5"
    s.summary      = "New user guide view."
    s.homepage     = "https://github.com/BOB-Module/HLBGuide"
    s.license      = 'MIT'
