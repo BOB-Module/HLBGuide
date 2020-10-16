@@ -22,7 +22,7 @@ pod 'HLBGuide'
 
 #### 自定义 UI 的方式
 
-类似使用 `UITableviewController` 和 `UITableviewCell` 创建和管理自定义 cell，使用 `HLBGuide` 时，需要创建 **HLBFocusedWithDialogViewController** 和 **HLBDialogView** 的子类，以自定义会话框的 UI 并管理相关点击事件。不同的是，一个 `UITableviewController` 上管理多个 `UITableviewCell` 子类实例，而 `HLBFocusedWithDialogViewController` 只需要管理一个 `HLBDialogView` 子类实例。  
+类似使用 `UITableviewController` 和 `UITableviewCell` 创建和管理自定义 cell，使用 `HLBGuide` 时，需要创建 **HLBFocusedWithDialogViewController** 和 **HLBDialogView** 的子类，来创建自定义的会话框 UI 并管理相关点击事件。不同的是，一个 `UITableviewController` 上管理多个 `UITableviewCell` 子类实例，而 `HLBFocusedWithDialogViewController` 只需要管理一个 `HLBDialogView` 子类实例。  
 
 #### 通过代理传入自定义的 HLBDialogView 子类
 
