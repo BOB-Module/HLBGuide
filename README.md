@@ -22,7 +22,7 @@ pod 'HLBGuide'
 
 #### 自定义 UI 的方式
 
-类似使用 `UITableviewController` 和 `UITableviewCell` 创建和管理自定义 cell，使用 `HLBGuide` 时，需要创建 **HLBFocusedWithDialogViewController** 和 **HLBDialogView** 的子类，来创建自定义的会话框 UI 并管理相关点击事件。不同的是，一个 `UITableviewController` 上管理多个 `UITableviewCell` 子类实例，而 `HLBFocusedWithDialogViewController` 只需要管理一个 `HLBDialogView` 子类实例。  
+类似使用 `UITableviewController` 和 `UITableviewCell` 创建和管理自定义 cell，使用 `HLBGuide` 时，需要创建 **HLBFocusedWithDialogViewController** 和 **HLBDialogView** 的子类，来创建自定义的会话框 UI 并管理相关点击事件。不同的是，一个 `UITableviewController` 管理多个 `UITableviewCell` 子类的实例，而 `HLBFocusedWithDialogViewController` 只管理一个 `HLBDialogView` 子类的实例。  
 
 #### 通过代理传入自定义的 HLBDialogView 子类
 
@@ -32,7 +32,9 @@ pod 'HLBGuide'
 
 `HLBFocusedWithDialogManager` 内部管理着一个 window，这个 window 是展示自定义引导页的容器。  
 
-`HLBFocusedWithDialogManager` 内部用一个数组来管理多个引导页。使用 `-addFocusedWithDialogVC:` 方法来添加引导页，完成添加后，再调用 `-show:` 来开始展示引导页。展示下一个引导页也是调用 `-show:` 方法，至于如何触发“展示下一个引导”需自行决定，并在 `HLBFocusedWithDialogViewController` 子类的相应的点击事件调用 `-show:` 方法即可。
+`HLBFocusedWithDialogManager` 内部用一个数组来管理多个*引导页*（即 `HLBFocusedWithDialogViewController` 子类的实例）。使用 `-addFocusedWithDialogVC:` 方法来添加引导页，完成添加后，调用 `-show:` 来开始展示引导页。  
+
+展示下一个引导页也是调用 `-show:` 方法，至于如何触发“展示下一个引导”需自行决定，并在 `HLBFocusedWithDialogViewController` 子类的相应的点击事件中调用 `-show:` 方法即可。
 
 ## HLBGuide 的使用方法
 
@@ -80,7 +82,7 @@ pod 'HLBGuide'
 
 详细的使用示例可参考 `HLBGuideExample` 示例工程中的 `MyExampleViewController.m`。
 
-## 原理讲解：示例 app 中 UI 的层级结构
+## UI 层级讲解：示例 app 中 UI 的层级结构
 
 #### 总览
 
@@ -102,6 +104,6 @@ pod 'HLBGuide'
 
 带三角形指示器的会话框（由于三角形是在 layer 上绘制的，所以在 reveal 中没有显示）。  
 
-`MyDialogView` 继承自 `HLBDialogView`，子类可在 `contentView` 上添加自定义控件（如本示例中的 Label 和 Button）。
+`MyDialogView` 继承自 `HLBDialogView`，子类可在 `contentView` 上添加自定义控件（如本示例中的 UILabel 和 UIButton）。
 
 <img src="./media/reveal-dialogView.jpg" width="50%" height="50%">
