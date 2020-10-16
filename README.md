@@ -16,15 +16,21 @@
 pod 'HLBGuide'
 ```
 
+## HLBGuide 的设计思想
+
+类似使用 `UITableviewController` 和 `UITableviewCell` 创建和管理自定义 cell，使用 `HLBGuide` 时，需要创建 **HLBFocusedWithDialogViewController** 和 **HLBDialogView** 的子类，以自定义会话框的 UI 并管理相关点击事件。不同的是，一个 `UITableviewController` 上可管理多个 `UITableviewCell` 子类实例，而 `HLBFocusedWithDialogViewController` 只需要管理一个 `HLBDialogView` 子类实例。  
+
+类似 `UITableViewDataSource` 为 `UITableviewController` 提供当前要显示的自定义 cell，使用 `HLBGuide` 时，通过遵守 **HLBFocusedWithDialogViewControllerDelegate** 协议来告知 `HLBFocusedWithDialogViewController` 使用哪个自定义的 `HLBDialogView` 子类。
+
 ## HLBGuide 的使用方法
 
-由于要自定义会话框的 UI，请创建 `HLBFocusedWithDialogViewController` 和 `HLBDialogView` 的子类，在其中添加自定义 UI 及其点击事件。如示例中的 `MyFocusedWithDialogViewController` 和 `MyDialogView`。  
+在 `HLBDialogView` 中添加自定义 UI ， 在 `HLBFocusedWithDialogViewController` 添加点击事件。如示例中的 `MyFocusedWithDialogViewController` 和 `MyDialogView`。  
 
 需要注意的是， `HLBDialogView` 子类的控件需添加到的 `contentView` 中。
 
 <img src="./media/subclass-example.jpg" width="50%" height="50%">
 
-然后就可以按下述步骤添加和展示引导页了：
+**然后就可以按下述步骤添加和展示引导页了：**
 
 #### 创建引导页
 
@@ -44,7 +50,7 @@ pod 'HLBGuide'
 
 #### 说明
 
-详细的使用示例可参考 `HLBGuideExample` 示例工程中的 `ExampleViewController.m`。
+详细的使用示例可参考 `HLBGuideExample` 示例工程中的 `MyExampleViewController.m`。
 
 ## 原理讲解：示例 app 中 UI 的层级结构
 
