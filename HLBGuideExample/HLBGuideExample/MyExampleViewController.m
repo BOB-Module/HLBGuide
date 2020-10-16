@@ -5,13 +5,13 @@
 //  Created by HuangLibo on 2020/10/5.
 //
 
-#import "ExampleViewController.h"
+#import "MyExampleViewController.h"
 #import "MyFocusedWithDialogViewController.h"
 #import "MyDialogView.h"
 #import <HLBGuide/HLBGuide.h>
 #import <Masonry.h>
 
-@interface ExampleViewController () <HLBFocusedWithDialogViewControllerDelegate>
+@interface MyExampleViewController () <HLBFocusedWithDialogViewControllerDelegate>
 
 // 两个需要被聚焦展示的`示例控件`
 @property (nonatomic, strong) UIButton *addBtn;
@@ -19,7 +19,7 @@
 
 @end
 
-@implementation ExampleViewController
+@implementation MyExampleViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

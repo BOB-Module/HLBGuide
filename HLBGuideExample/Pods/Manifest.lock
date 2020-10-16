@@ -1,5 +1,5 @@
 PODS:
-  - HLBGuide (0.0.1)
+  - HLBGuide (0.0.6)
   - Masonry (1.1.0)
 
 DEPENDENCIES:
@@ -7,7 +7,7 @@ DEPENDENCIES:
   - Masonry (~> 1.1.0)
 
 SPEC REPOS:
-  https://cdn.cocoapods.org/:
+  trunk:
     - Masonry
 
 EXTERNAL SOURCES:
@@ -15,9 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HLBGuide: 13f9319755d8d771cc0a8f78da2e66376d55578b
+  HLBGuide: d245286842a2f7f0ad8fb560265cda30452c5572
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 2dbc945acf351de66b4b65e608cdf2b3d90efd23
+PODFILE CHECKSUM: c843dbd9a99f25a08da955cf12f0e8eb72714f11
 
 COCOAPODS: 1.9.3

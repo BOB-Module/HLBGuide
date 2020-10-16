@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7186AD352539470100CDB67A /* MyDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7186AD312539470000CDB67A /* MyDialogView.m */; };
+		7186AD362539470100CDB67A /* MyFocusedWithDialogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7186AD342539470100CDB67A /* MyFocusedWithDialogViewController.m */; };
+		7186AD402539484100CDB67A /* MyExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7186AD3F2539484100CDB67A /* MyExampleViewController.m */; };
 		71AA723D25358A9B005873AE /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 71AA723C25358A9B005873AE /* CHANGELOG.md */; };
 		71DCE6B3252B1FCB000569AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DCE6B2252B1FCB000569AC /* AppDelegate.m */; };
 		71DCE6BE252B1FCD000569AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71DCE6BD252B1FCD000569AC /* Assets.xcassets */; };
 		71DCE6C1252B1FCD000569AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71DCE6BF252B1FCD000569AC /* LaunchScreen.storyboard */; };
 		71DCE6C4252B1FCD000569AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DCE6C3252B1FCD000569AC /* main.m */; };
-		71DCE6D7252B2169000569AC /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DCE6D6252B2169000569AC /* ExampleViewController.m */; };
-		71DCE6E1252B220B000569AC /* MyDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DCE6DD252B220B000569AC /* MyDialogView.m */; };
-		71DCE6E2252B220B000569AC /* MyFocusedWithDialogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DCE6DE252B220B000569AC /* MyFocusedWithDialogViewController.m */; };
 		E4D2B17FA52999050465E51E /* libPods-HLBGuideExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2731BB8F6909D98B9179BB91 /* libPods-HLBGuideExample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2731BB8F6909D98B9179BB91 /* libPods-HLBGuideExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HLBGuideExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7186AD312539470000CDB67A /* MyDialogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDialogView.m; sourceTree = "<group>"; };
+		7186AD322539470000CDB67A /* MyDialogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDialogView.h; sourceTree = "<group>"; };
+		7186AD332539470100CDB67A /* MyFocusedWithDialogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFocusedWithDialogViewController.h; sourceTree = "<group>"; };
+		7186AD342539470100CDB67A /* MyFocusedWithDialogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFocusedWithDialogViewController.m; sourceTree = "<group>"; };
+		7186AD3E2539484100CDB67A /* MyExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyExampleViewController.h; sourceTree = "<group>"; };
+		7186AD3F2539484100CDB67A /* MyExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyExampleViewController.m; sourceTree = "<group>"; };
 		71AA723C25358A9B005873AE /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../CHANGELOG.md; sourceTree = "<group>"; };
 		71DCE6AE252B1FCB000569AC /* HLBGuideExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLBGuideExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71DCE6B1252B1FCB000569AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,12 +34,6 @@
 		71DCE6C0252B1FCD000569AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71DCE6C2252B1FCD000569AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71DCE6C3252B1FCD000569AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		71DCE6D5252B2169000569AC /* ExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
-		71DCE6D6252B2169000569AC /* ExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
-		71DCE6DD252B220B000569AC /* MyDialogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDialogView.m; sourceTree = SOURCE_ROOT; };
-		71DCE6DE252B220B000569AC /* MyFocusedWithDialogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFocusedWithDialogViewController.m; sourceTree = SOURCE_ROOT; };
-		71DCE6DF252B220B000569AC /* MyFocusedWithDialogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFocusedWithDialogViewController.h; sourceTree = SOURCE_ROOT; };
-		71DCE6E0252B220B000569AC /* MyDialogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDialogView.h; sourceTree = SOURCE_ROOT; };
 		8DB162EEBF49D657D330A303 /* Pods-HLBGuideExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLBGuideExample.release.xcconfig"; path = "Target Support Files/Pods-HLBGuideExample/Pods-HLBGuideExample.release.xcconfig"; sourceTree = "<group>"; };
 		9F313D84F9EE006ADF770CB5 /* Pods-HLBGuideExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLBGuideExample.debug.xcconfig"; path = "Target Support Files/Pods-HLBGuideExample/Pods-HLBGuideExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -50,6 +50,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7186AD3C253947ED00CDB67A /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				7186AD322539470000CDB67A /* MyDialogView.h */,
+				7186AD312539470000CDB67A /* MyDialogView.m */,
+				7186AD332539470100CDB67A /* MyFocusedWithDialogViewController.h */,
+				7186AD342539470100CDB67A /* MyFocusedWithDialogViewController.m */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
 		71DCE6A5252B1FCB000569AC = {
 			isa = PBXGroup;
 			children = (
@@ -74,12 +85,9 @@
 			children = (
 				71DCE6B1252B1FCB000569AC /* AppDelegate.h */,
 				71DCE6B2252B1FCB000569AC /* AppDelegate.m */,
-				71DCE6D5252B2169000569AC /* ExampleViewController.h */,
-				71DCE6D6252B2169000569AC /* ExampleViewController.m */,
-				71DCE6DF252B220B000569AC /* MyFocusedWithDialogViewController.h */,
-				71DCE6DE252B220B000569AC /* MyFocusedWithDialogViewController.m */,
-				71DCE6E0252B220B000569AC /* MyDialogView.h */,
-				71DCE6DD252B220B000569AC /* MyDialogView.m */,
+				7186AD3E2539484100CDB67A /* MyExampleViewController.h */,
+				7186AD3F2539484100CDB67A /* MyExampleViewController.m */,
+				7186AD3C253947ED00CDB67A /* Guide */,
 				71DCE6BD252B1FCD000569AC /* Assets.xcassets */,
 				71DCE6BF252B1FCD000569AC /* LaunchScreen.storyboard */,
 				71DCE6C2252B1FCD000569AC /* Info.plist */,
@@ -200,10 +208,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71DCE6D7252B2169000569AC /* ExampleViewController.m in Sources */,
+				7186AD402539484100CDB67A /* MyExampleViewController.m in Sources */,
 				71DCE6B3252B1FCB000569AC /* AppDelegate.m in Sources */,
-				71DCE6E1252B220B000569AC /* MyDialogView.m in Sources */,
-				71DCE6E2252B220B000569AC /* MyFocusedWithDialogViewController.m in Sources */,
+				7186AD352539470100CDB67A /* MyDialogView.m in Sources */,
+				7186AD362539470100CDB67A /* MyFocusedWithDialogViewController.m in Sources */,
 				71DCE6C4252B1FCD000569AC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
